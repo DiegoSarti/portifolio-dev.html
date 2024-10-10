@@ -3,45 +3,59 @@
 body{
     background-color: var(--cor-primaria);
 }
-span{
-    color: var(--cor-terciaria);
-}
+ span{
+    color: var(--cor-terciaria); 
+ } 
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    height: 150px;
-    
+    height: 150px; 
+
     background-color: var(--cor-secundaria);
     
     box-shadow:10px 5px 5px black;
 }
+
+.home{
+}
+    
+    
 .cabecalho_menu{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0px 100px;
 }
+    
+    
 .cabecalho_Portifolio{
-   
-    margin-top: 21px;
 }
+    
 .cabecalho_home{
     padding: 30px;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
+    
 .cabecalho_home:hover{
     color:var(--cor-primaria);
 }
- .main{
+.apresentacao_home{
     width: 100%;
-    height: 619px;
-    background-color: aquamarine;
-    border: solid 1px black;
+    height: 100vh;
+    background-color: var(--cor-primaria);
 }
-/*.main_home{
-    height: 427px;
+.apresentacao_about{
     width: 100%;
-    
-    border: solid 1px black;
-} */
+    height: 100vh;
+    background-color: var(--cor-quarta);
+
+}
+.apresentacao_contac{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor-secundaria);
+
+}
     
 
