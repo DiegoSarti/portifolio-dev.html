@@ -41,9 +41,34 @@ body{
     color:var(--cor-primaria);
 }
 .apresentacao_home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     background-color: var(--cor-primaria);
+}
+.info_home{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    /* border: 2px black solid; */
+}
+.texto_home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+}
+h3{
+    color: var(--cor-terciaria);
+}
+.h1_home{
+    color: var(--cor-terciaria);
+}
+p{
+    color: var(--cor-terciaria);
 }
 .apresentacao_about{
     width: 100%;
