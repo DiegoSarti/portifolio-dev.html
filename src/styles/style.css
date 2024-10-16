@@ -43,6 +43,7 @@ body{
 }
 .apresentacao_home{
     display: flex;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -51,6 +52,7 @@ body{
 }
 .info_home{
     display: flex;
+    gap: 199px;
     width: 80%;
     height: 70%;
     /* border: 2px black solid; */
