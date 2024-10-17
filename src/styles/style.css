@@ -98,10 +98,36 @@ p{
     color: var(--cor-terciaria);
 }
 .apresentacao_contac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     background-color: var(--cor-secundaria);
 
+}
+.info_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    border: 2px black solid;
+    gap: 24px;
+}
+.titulo_contact{
+    display: flex;
+    font-size: 42px;
+
+}
+.sub_contact{
+    
+    width: 500px;
+}
+.coisas_contac{
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
 }
     
 
