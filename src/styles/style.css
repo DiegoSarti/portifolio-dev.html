@@ -112,7 +112,6 @@ p{
     align-items: center;
     width: 80%;
     height: 70%;
-    border: 2px black solid;
     gap: 24px;
 }
 .titulo_contact{
@@ -123,11 +122,64 @@ p{
 .sub_contact{
     
     width: 500px;
+    margin-bottom: 56px;
 }
 .coisas_contac{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 223px;
     height: 100%;
     width: 100%;
-    border: 3px solid black;
+
+
 }
-    
+.contatos_contact{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 347px;
+    height: 294px;
+
+
+}
+.contatos2_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    width: 50%;
+    height: 100%;
+
+
+}
+.name_contact{
+    height: 63px;
+    width: 350px;
+    background-color: var(--cor-quarta);
+    border-radius: 5px;
+
+}
+.message_contact{
+    height: 166px;
+    width: 540px;
+    background-color: var(--cor-quarta);
+    border-radius: 5px;
+   
+
+}
+.contact_us_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 59px;
+    width: 123px;
+    background-color: var(--cor-terciaria);
+    border-radius: 5px;
+}
+.contact_us_color{
+    color: var(--cor-secundariacor-terciaria);
+
+}
 
