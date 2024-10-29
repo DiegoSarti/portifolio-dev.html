@@ -201,21 +201,38 @@ p{
     height: 100vh;
 }
 .info_service{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
     width: 1110px;
     height: 567px;
-    border: 3px solid black;
+
 }
 .texto_service{
-    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+ 
     width: 461px;
     height: 169px;
 }
 .services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
     width: 1110px;
     height: 342px;
-    border: 3px solid black;
-}
 
+}
+.quadrados_service{
+    border-radius: 10px;
+  
+    width: 350px;
+    height: 339px;
+    background-color: var(--cor-secundaria);
+}
 
 .apresentacao_Portfolio{
     width: 100%;
