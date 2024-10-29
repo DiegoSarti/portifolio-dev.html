@@ -193,4 +193,8 @@ p{
     color: var(--cor-secundariacor-terciaria);
 
 }
+.apresentacao_Service{
+    width: 100%;
+    height: 100vh;
+}
 
