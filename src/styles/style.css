@@ -106,7 +106,13 @@ p{
     gap: 70px;
 }
 .h1_about{
+    color: white;
+}
+.h1_about_me{
     color: var(--cor-terciaria);
+}
+.h1_about_texto{
+    color: grey;
 }
 .apresentacao_contac{
     display: flex;
