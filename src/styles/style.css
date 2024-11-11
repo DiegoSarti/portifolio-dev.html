@@ -136,10 +136,16 @@ p{
     font-size: 42px;
 
 }
+.texto_service_services{
+    color: var(--cor-terciaria);
+}
 .sub_contact{
     
     width: 500px;
     margin-bottom: 56px;
+}
+.texto_service_texto{
+    color: grey;
 }
 .coisas_contac{
     display: flex;
