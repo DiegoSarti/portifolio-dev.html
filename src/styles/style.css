@@ -252,6 +252,14 @@ p{
     height: 339px;
     background-color: var(--cor-secundaria);
 }
+.quadrados_titulo{
+    text-align: center;
+    color: white;
+}
+.quadrados_texto{
+    color: grey;
+    text-align: center;
+}
 
 .apresentacao_Portfolio{
     width: 100%;
