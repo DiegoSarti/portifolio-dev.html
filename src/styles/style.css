@@ -276,7 +276,6 @@ p{
   
     width: 1110px;
     height: 100%;
-    border: 2px solid black;
 }
 .portfolio_titulo{
     display: flex;
@@ -287,7 +286,6 @@ p{
     margin-top: 90px;
     width: 461px;
     height: 169px;
-    border: 2px solid black;
 }
 .portfolio_img{
     display: flex;
@@ -296,7 +294,6 @@ p{
     gap:27px;
     width: 1110px;
     height: 565px;
-    border: 2px solid black;
 }
 .portfolio_texto{
     color: grey;
@@ -307,7 +304,6 @@ p{
 .portfolio_img_grande{
     width: 549px;
     height: 565px;
-    border: 3px solid black;
 }
 .portfolio_img_pequena{
     display: flex;
@@ -316,7 +312,6 @@ p{
     gap: 20px;
     width: 549px;
     height: 565px;
-    border: 3px solid black;
 }
 .portfolio_img_pequena2{
     display: flex;
@@ -324,7 +319,6 @@ p{
     gap: 20px;
     height: 565px;
     width: 550px;
-    border: 3px solid black;
 }
 
 .apresentacao_Resume{
