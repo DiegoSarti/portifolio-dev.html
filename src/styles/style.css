@@ -290,6 +290,10 @@ p{
     border: 2px solid black;
 }
 .portfolio_img{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 120px;
+    gap:27px;
     width: 1110px;
     height: 565px;
     border: 2px solid black;
@@ -300,6 +304,29 @@ p{
 .portfolio_texto_titulo{
     color: var(--cor-terciaria);
 }
+.portfolio_img_grande{
+    width: 549px;
+    height: 565px;
+    border: 3px solid black;
+}
+.portfolio_img_pequena{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 20px;
+    width: 549px;
+    height: 565px;
+    border: 3px solid black;
+}
+.portfolio_img_pequena2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 565px;
+    width: 550px;
+    border: 3px solid black;
+}
+
 .apresentacao_Resume{
     width: 100%;
     height: 100vh;
