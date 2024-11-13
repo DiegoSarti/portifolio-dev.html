@@ -352,6 +352,7 @@ p{
     height: 322px;
 }
 .quadrados_resume_texto{
+    padding: 32px;
     width: 336px;
     height: 322px;
     background-color: var(--cor-secundaria);
