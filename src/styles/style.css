@@ -334,22 +334,26 @@ p{
     gap: 80px;
     width: 1126px;
     height: 544px;
-    border: 3px solid black;
 }
 .Resume_titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 730px;
     height: 142px;
-    border: 3px solid black;
+}
+.Resume_titulo_texto{
+    color: var(--cor-terciaria);
 }
 .quadrados_resume{
     display: flex;
-    justify-content: space-between;
+    gap: 29px;
     width: 1126px;
     height: 322px;
-    border: 3px solid black;
 }
 .quadrados_resume_texto{
     width: 336px;
     height: 322px;
     background-color: var(--cor-secundaria);
+    border-radius: 10px;
 }
