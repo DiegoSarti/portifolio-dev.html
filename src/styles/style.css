@@ -367,3 +367,27 @@ p{
     background-color: var(--cor-secundaria);
     border-radius: 10px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.contact_mensagem_box{
+    padding-left: 10px;
+    background-color: #1F2937;
+    height: 166px;
+    width: 540px;
+}
+.contact_nome_box{
+    font-family: var(--font-primaria);
+    padding-left: 10px;
+    background-color: #1F2937;
+    height: 63px;
+    width: 350px;
+}
+.contact_enviar_box{
+    background-color: var(--cor-terciaria);
+    height: 59px;
+    width: 123px;
+    border-radius: 8px;
+}
