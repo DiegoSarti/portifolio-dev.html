@@ -142,6 +142,7 @@ p{
     color: var(--cor-terciaria);
 }
 .sub_contact{
+    text-align: center;
 
     color: grey;
     width: 500px;
@@ -390,4 +391,17 @@ form{
     height: 59px;
     width: 123px;
     border-radius: 8px;
+}
+.aboute_me_footer{
+    border: solid black 3px;
+    margin-top: 56px;
+    text-align: center;
+    height: 320px;
+    width: 685px;
+}
+.aboute_me_footer_title{
+    color: white;
+}
+.aboute_me_footer_text{
+    color: grey;
 }
