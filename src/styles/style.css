@@ -120,7 +120,6 @@ p{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
     background-color: var(--cor-secundaria);
 
 }
@@ -393,7 +392,9 @@ form{
     border-radius: 8px;
 }
 .aboute_me_footer{
-    border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 56px;
     text-align: center;
     height: 320px;
@@ -404,4 +405,20 @@ form{
 }
 .aboute_me_footer_text{
     color: grey;
+}
+.about_me_footer_dentro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    height: 128px;
+    width: 685px;
+}
+.aboute_me_images{
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 24px;
+    width: 224px;
+    display: flex;
+    align-items: center;
 }
